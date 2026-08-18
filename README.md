@@ -92,16 +92,6 @@ chmod +x frp_test.sh
 
 ---
 
-## ساختار پروژه
-
-```
-frp-protocol-tester/
-├── frp-tester.sh          # اسکریپت اصلی
-├── README.md              # مستندات انگلیسی
-└── README-fa.md           # مستندات فارسی
-```
-
----
 
 ## نکات مهم
 
