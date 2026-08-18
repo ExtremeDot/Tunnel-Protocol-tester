@@ -42,7 +42,7 @@ apt install -y curl wget tar netcat-openbsd sshpass openssl
 ### روش سریع
 
 ```bash
-bash <(curl -sSL https://raw.githubusercontent.com/USERNAME/frp-protocol-tester/main/frp-tester.sh) \
+bash <(curl -sSL https://raw.githubusercontent.com/ExtremeDot/Tunnel-Protocol-tester/main/frp_test.sh) \
   --iran-host IP_OR_DOMAIN \
   --iran-port 22 \
   --iran-user root \
@@ -52,8 +52,8 @@ bash <(curl -sSL https://raw.githubusercontent.com/USERNAME/frp-protocol-tester/
 ### روش دستی
 
 ```bash
-wget -O frp-tester.sh https://raw.githubusercontent.com/USERNAME/frp-protocol-tester/main/frp-tester.sh
-chmod +x frp-tester.sh
+wget -O frp_test.sh https://raw.githubusercontent.com/ExtremeDot/Tunnel-Protocol-tester/main/frp_test.sh
+chmod +x frp_test.sh
 
 ./frp-tester.sh \
   --iran-host 2.144.x.x \
